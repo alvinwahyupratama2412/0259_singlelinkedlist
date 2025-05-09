@@ -7,3 +7,16 @@ class Node{
         int noMhs;
         Node *next;
 };
+
+class SingleLinkedList{
+    Node *START;
+public : 
+    SingleLinkedList(){
+        START = NULL;
+    }
+    void addNode(){
+        int nim;
+        cout << "\nMasukkan Nomor Mahasiswa : ";
+        cin >> nim;
+    }
+};
