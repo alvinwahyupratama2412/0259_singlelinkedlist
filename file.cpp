@@ -41,10 +41,14 @@ public :
              cout << "\nDuplikasi noMhs Tidak Diijinkan\n";
              return;   
             }
+            previous = current;
+            current = current->next;
         }
-        
+        nodebaru->next = current;
+        previous->next = nodebaru;
     }
-   
+
+    
 
     
 
