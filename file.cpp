@@ -31,6 +31,9 @@ public :
             START = nodebaru;
             return;
         }
+
+        Node *previous = START;
+        Node *current = START;
     }
    
 
