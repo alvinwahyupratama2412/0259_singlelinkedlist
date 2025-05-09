@@ -47,9 +47,12 @@ public :
         nodebaru->next = current;
         previous->next = nodebaru;
     }
+    
+    bool listEmpty(){
+        return (START == NULL);
+    }
 
     
-
     
 
 };
